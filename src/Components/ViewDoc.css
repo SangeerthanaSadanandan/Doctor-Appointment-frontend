@@ -1,0 +1,36 @@
+.maindiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.doctors{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px 5px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 30px;
+}
+
+.days{
+    display: flex;
+    gap: 10px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
